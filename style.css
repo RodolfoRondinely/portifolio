@@ -164,3 +164,57 @@ span img{
   margin: 20px;
     
 }
+@media (max-width:800px){
+  
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        color: #0094E3;
+        display: inline;
+        margin-left: 0;
+        font-size: 4vw;
+    }
+    h2{
+        border: none;
+        box-shadow: none;
+        background: none;
+        text-align: left;
+
+    
+    }
+    .fotos{
+        width: 20%;
+        margin-left: -10px;
+    }
+    .main1 h2{
+     font-size: 16px;
+     color: #0094E3;
+     text-align: left;
+     margin-left: 0;
+     border: none;
+     box-shadow: none;
+     background: none;
+    }
+.main1 {
+    display: inline;
+    font-size: 80%;
+    width: 1%;
+    background: none;
+}
+.main1 img{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+}
+.fotos2 img{
+border:0;
+width: 400px;
+padding: 0;
+}
+footer{
+    display: none;
+}
+}
