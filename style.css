@@ -164,6 +164,12 @@ span img{
   margin: 20px;
     
 }
+#copyrigth{
+    background: black;
+    text-align: center;
+    padding:2% 30%;
+
+}
 @media (max-width:800px){
   
 
